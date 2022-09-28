@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color:purple;
+}
+a:hover {
+    color: pink;
+}
+.profname {
+    color: lightsalmon;
+    text-decoration:underline;
+}
+
+.con {
+    color: lightcoral
+}
+.profile_img{
+    float:left;
+    margin-right: 30px;
+    margin-left: 85px;;
+    margin-top: 20px;
+}
+
+.contact{
+    display:inline-block;
+}
+h1 {
+    font-weight: bold;
+    font-size: 75px;
+    margin-top: 30px;
+}
+h3 {
+    font-style: italic;
+    
+    font-size: 18px;
+    color: palevioletred 
+}
+
+.skill{
+    color:salmon
+}
+ul li {
+    list-style-type: square;
+}
+.edu {
+    color:salmon
+}
+.education {
+    margin-left: 60px;
+}
+.skills {
+    margin-left: 60px;
+}
+.ex{
+    margin-left: 60px;
+}
+.experience {
+    color:salmon
+}
+html {
+    font-size: 16px;
+}
+
+
+.shrm {
+    color: palevioletred;
+    font-size: 17px
+}
+.frb {
+    color:palevioletred;
+    font-size: 17px
+}
+body {
+    font-family: Montserrat, sans-serif;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    
+   
+}
