@@ -1,144 +1,290 @@
-.container {
-    display: grid;
-    margin-top: 2em;
-    grid-template-columns: 25% 25%;
-    grid-column-gap: 2%;
-    grid-template-rows: 25% 25% 25% 25%;
-    row-gap: 0;
-    contain:layout;
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
-.vl {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 4;
-
-    border-left: 1pt solid #d584e3;
-    height: 1190px;    
-    margin-left: 3em;    
+#nav {
+    background-color: black; 
 }
 
-.photo {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end:1;
-
-    margin-left: 7em;
-
-}
-
-.name {
-    grid-column-start: 3;
-    margin-left: -16em;
-}
-
-.contact {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 2;
-    grid-row-end: 2;
-
-    margin-top: -2em;
-}
-
-.contact ul{
-    text-align: right;
-    list-style-type: none;
-    font-family: Work Sans;
-    font-size: 10pt;      
-}
-
-ul {
-    font-size: 11pt;
-}
-
-.contact ul li::first-letter {
-    font-weight: bold;
-}
-
-.education {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 3; 
-
-    text-align: right;
-
-    font-family: Work Sans;
-
-    margin-top: -15em;
-}
-.education ul {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 3;
-
-    text-align: right;
-
-    list-style-type: none;
-}
-
-.skills {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 4;
-    grid-row-end: 4; 
-
-    text-align: right;
-    font-family: Work Sans;
-
-    margin-top: -17em;
-}
-
-.skills ul {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 4;
-    grid-row-end: 4;
-
-    text-align: right;
-    list-style-type: none;
-
-}
-
-.experience {
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 4;
-
-    font-family: Work Sans;
-
-    margin-top: -11em;
-    margin-left: 7.5em;
-}
-
-
-h1 {
-    font-weight: bold;
-    font-size: 75px;
-    margin-top: 30px;
-    font-family: Mixta Sharp;
-}
-
-
-h2 {
-    color:#bf87bb;
-    
+.navbar-link {
+    color: white;
 }
 
 h3 {
-    font-size: 12pt;
+    font-family: Futura;
+    font-weight: bold;
+    font-size: 40px;
 }
 
-h5 {
-    margin:0;
-    padding:0;
-    font-size: 11pt;
+h4 {
+    font-family: Helvetica Light;
+    font-size: 18px;
+} 
+
+hr {
+    width: 70em;
+    margin: auto;
 }
+
+
+
+/* HOME */
+
+.banner {
+    background: url(header.png);
+    color: black;
+    background-color: black;
+    background-size: auto;
+    margin-left: 0em;
+}
+
+.welcome {
+    margin-top: 3em; 
+    text-align: center;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom: 3em;
+}
+
+#getOut {
+    margin-top: 2em;
+}
+
+/* BACKGROUND */
+
+.bg li {
+    font-family: Helvetica Light;
+    font-size: 10px;
+}
+
+.background {
+    background-color: black;
+    color: white;
+    display: grid;
+    padding: 2em;
+}
+
+.background img {
+    width: 190px;
+    height: 370px;
+    margin-right: 2em;
+    margin-left: 4em;
+    border-style: solid;
+}
+
+#copy-bg {
+    grid-column-start: 2;
+    margin-right: 8em;
+}
+
+/* ALBUM EXPLORATION */
+
+.albums {
+    display: grid;
+    margin-top: 3em;
+    margin-left: 4em;
+}
+
+#album-title {
+    text-align: center;
+}
+
+#album-sub {
+    text-align: center;
+}
+
+.carousel {
+    margin-left: 5em;
+    width: 300px;
+    height: 100px;
+    grid-column-start: 2;
+    margin-top: 1em;
+    margin-right: 4em;
+}
+
+.alb {
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.alb img {
+    width: 300px;
+    height: 300px;
+    margin-left: 2em;
+}
+
+.alb-copy {
+    width: 30em;
+    margin-top: 1em;
+}
+
+.multi {
+    margin-top: 6em; 
+    margin-right: 4em;
+}
+
+#sat-title {
+    text-align: center;
+}
+
+#sat-sub { 
+    text-align: center;
+}
+
+.sat-1 {
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+
+#sat1-copy {
+    display: grid;
+    grid-column-start: 2;
+    margin-left: 2em;
+    align-items: center;
+}
+
+.sat-1 img {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width: 300px;
+    height: 300px;
+}
+
+.sat-2 {
+    display: grid;
+    margin-top: 3em;
+    grid-template-columns: 2fr;
+}
+
+#sat2-copy {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-left: 2em;
+    align-items: center;
+}
+
+.sat-2 img {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width: 300px;
+    height: 300px;
+}
+
+.sat-3 {
+    display: grid;
+    margin-top: 3em;
+    grid-template-columns: 2fr;
+}
+
+#sat3-copy {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    margin-left: 2em;
+    align-items: center;
+}
+
+.sat-3 img{
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width: 300px;
+    height: 300px;
+}
+
+.tf {
+    display: grid;
+    margin-top: 3em;
+    grid-template-columns: 2fr;
+}
+
+#tf-copy {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    margin-left: 2em;
+    align-items: center;
+    margin-right: 4em;
+}
+
+.tf img {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    width: 300px;
+    height: 300px;
+}
+
+.tm {
+    display: grid;
+    margin-top: 3em;
+    grid-template-columns: 2fr;
+}
+
+#tm-copy {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 3;
+    margin-left: 2em;
+    margin-right: 4em;
+    align-items: center;
+}
+
+
+.tm img {
+    width: 300px;
+    height: 300px;
+}
+
+/* FALL */
+
+.fall {
+    background-color: black;
+    color: white;
+    margin-top: 6em;
+    display: grid;
+
+    margin-bottom: 3em;;
+}
+
+#fall-text {
+    margin: 3em;
+    grid-column-start: 1;
+    text-align: left;
+}
+
+.fall img {
+    margin: 3em;
+    grid-column-start: 2;
+    border-style: solid;
+}
+
+/* MEANING */
+
+#m-title {
+    text-align: center;
+
+}
+#meaning-cop {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.carousel {
+    margin: auto;
+    width: 600px;
+    height: 400px;
+}
+
+
 
 
