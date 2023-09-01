@@ -43,7 +43,7 @@ h5 {
     flex-direction: column;
     height: 600px;
     background-color: #e995a5;
-    background-image: url(bg.jpg);
+    background-image: url(del/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -116,7 +116,7 @@ h5 {
     display: flex;
     flex-direction: column;
     height: 600px;
-    background-image: url(group.jpg);
+    background-image: url(del/group.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -140,7 +140,7 @@ h5 {
     flex-direction: column;
     height: 400px;
     background-color: #e995a5;
-    background-image: url(clouds.png);
+    background-image: url(del/clouds.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -193,7 +193,7 @@ h5 {
     flex-direction: column;
     height: 420px;
     background-color: #e995a5;
-    background-image: url(clouds.png);
+    background-image: url(del/clouds.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -215,7 +215,7 @@ h5 {
     flex-direction: column;
     height: 400px;
     background-color: #e995a5;
-    background-image: url(joinbanner.jpg);
+    background-image: url(del/joinbanner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -265,7 +265,7 @@ h5 {
     flex-direction: column;
     height: 400px;
     background-color: #e995a5;
-    background-image: url(aboutbanner.jpeg);
+    background-image: url(del/aboutbanner.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
