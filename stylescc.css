@@ -1,3 +1,50 @@
-#nav {
-   font-family: Quantico Italic Bold; 
+.banner {
+    margin-left: -10em;
+    margin-bottom: 10em;
 }
+
+h2 {
+    font-family: Sui Generis;
+    font-size: 60px;
+}
+
+p {
+    font-family: Helvetica Neue;
+    font-style: italic;
+    font-size: large;  
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    /*background-color: black;*/
+}
+
+#nav {
+    padding: .5em;
+    font-family: Quantico;
+    background-color: black;
+}
+
+nav .navbar-nav li a{
+    color: #E5D854 !important;
+}
+
+/* SONGBIRD PROMO */
+.songbirdimg {
+    margin: 4em;
+    display: grid;
+}
+
+.songbirdimg img {
+    margin-right: 2em;
+    margin-left: 4em;
+    width: 384;
+    height: 595;
+}
+
+#songbird-text {
+    grid-column-start: 2;
+    margin-right: 8em;
+}
+

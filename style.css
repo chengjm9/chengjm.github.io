@@ -61,7 +61,6 @@ hr {
 .background {
     background-color: black;
     color: white;
-    display: grid;
     padding: 2em;
 }
 
