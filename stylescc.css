@@ -1,24 +1,20 @@
-.banner {
-    margin-left: -10em;
-    margin-bottom: 10em;
-}
-
 h2 {
-    font-family: Sui Generis;
-    font-size: 60px;
+    font-family: Quantico;
+
 }
 
 p {
     font-family: Helvetica Neue;
-    font-style: italic;
-    font-size: large;  
 }
+
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    /*background-color: black;*/
+    background-color: black;
 }
+
+/* NAV BAR */
 
 #nav {
     padding: .5em;
@@ -30,21 +26,17 @@ nav .navbar-nav li a{
     color: #E5D854 !important;
 }
 
-/* SONGBIRD PROMO */
-.songbirdimg {
-    margin: 4em;
-    display: grid;
+/* HERO IMAGE BANNER */
+.btn {
+    margin-left: 21em;
+    margin-top: -12em;
+    font-family: Quantico;
+    background-color: #E5D854;
 }
 
-.songbirdimg img {
-    margin-right: 2em;
-    margin-left: 4em;
-    width: 384;
-    height: 595;
+/* WELCOME */
+.welcome img {
+    border-radius: 500px;
 }
 
-#songbird-text {
-    grid-column-start: 2;
-    margin-right: 8em;
-}
 
