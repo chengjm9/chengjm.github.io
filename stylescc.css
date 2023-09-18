@@ -1,42 +1,73 @@
 h2 {
     font-family: Quantico;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
 }
 
 p {
     font-family: Helvetica Neue;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
 }
 
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    background-color: black;
 }
 
 /* NAV BAR */
 
 #nav {
+    overflow-y:auto;
     padding: .5em;
-    font-family: Quantico;
-    background-color: black;
+    font-family: Quantico;;
 }
 
 nav .navbar-nav li a{
     color: #E5D854 !important;
 }
 
+.dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-menu > li > a:hover {
+    color: black !important;
+}
+
 /* HERO IMAGE BANNER */
-.btn {
-    margin-left: 21em;
-    margin-top: -12em;
-    font-family: Quantico;
+.btn {    
+    margin-top: -17em;
+    margin-left: 29em;
+    position:sticky;
+    overflow-y: hidden;
+    font-family: Quantico;  
     background-color: #E5D854;
 }
 
 /* WELCOME */
-.welcome img {
-    border-radius: 500px;
+.welcome {
+    background-color: white;
+    display: grid;
+    margin: 3em;
+}
+
+.welcome-text {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    margin-right: 5em;
+}
+
+.ratimg {
+    grid-column-start: 5;
+    margin-right: -5em;
+    margin-top: 4em;
 }
 
 
